@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "94868796553",
+    "project_id": "gasstation-andre",
+    "storage_bucket": "gasstation-andre.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94868796553:android:e00245836bde1486a88258",
+        "android_client_info": {
+          "package_name": "com.example.ga"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARnHUudfubPNgAOwCTYXJkTfkD8_lBRW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
