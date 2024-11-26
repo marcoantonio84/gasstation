@@ -17,29 +17,29 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      return web;
+      return web; // Retorna opções configuradas para Web.
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
-        return android;
+        return android; // Retorna opções configuradas para Android.
       case TargetPlatform.iOS:
         throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
+          'DefaultFirebaseOptions have not been configured for iOS - '
           'you can reconfigure this by running the FlutterFire CLI again.',
         );
       case TargetPlatform.macOS:
         throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
+          'DefaultFirebaseOptions have not been configured for macOS - '
           'you can reconfigure this by running the FlutterFire CLI again.',
         );
       case TargetPlatform.windows:
         throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
+          'DefaultFirebaseOptions have not been configured for Windows - '
           'you can reconfigure this by running the FlutterFire CLI again.',
         );
       case TargetPlatform.linux:
         throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for linux - '
+          'DefaultFirebaseOptions have not been configured for Linux - '
           'you can reconfigure this by running the FlutterFire CLI again.',
         );
       default:
@@ -55,7 +55,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '94868796553',
     projectId: 'gasstation-andre',
     authDomain: 'gasstation-andre.firebaseapp.com',
-    storageBucket: 'gasstation-andre.firebasestorage.app',
+    storageBucket: 'gasstation-andre.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
@@ -63,6 +63,6 @@ class DefaultFirebaseOptions {
     appId: '1:94868796553:android:e00245836bde1486a88258',
     messagingSenderId: '94868796553',
     projectId: 'gasstation-andre',
-    storageBucket: 'gasstation-andre.firebasestorage.app',
+    storageBucket: 'gasstation-andre.appspot.com',
   );
 }

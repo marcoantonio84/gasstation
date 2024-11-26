@@ -254,13 +254,13 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "gasstation",
+      "name": "gerenciamento_veiculos",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2024-11-26T00:25:43.122588Z",
+  "generated": "2024-11-26T03:15:18.415771Z",
   "generator": "pub",
   "generatorVersion": "3.5.3",
   "flutterRoot": "file:///C:/flutter",
